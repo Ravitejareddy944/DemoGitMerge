@@ -13,6 +13,7 @@ protocol DemoViewModelProtocol{
 
 class DemoViewModel: DemoViewModelProtocol{
     func didButtonTapped() {
-        print("Button tapped - yes")
+        print("Button tapped")
+        print("yes")
     }
 }
